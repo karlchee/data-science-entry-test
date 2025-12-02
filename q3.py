@@ -9,7 +9,7 @@ def update_dictionary(dct, key, value):
 
     # Check if key exists
     if key in dct:
-        print(key, "exists; original value is", dct[key])  # print original value before updating
+        print(f"'{key}' exists; original value is {dct[key]}")  # print original value before updating
 
     dct[key] = value
     return dct
